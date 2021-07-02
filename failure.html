@@ -1,28 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-      <meta charset="UTF-8">
+      <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
       <title>Failure</title>
-      <!-- Bootstrap core CSS -->
-      <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <!-- Google font -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+
+      <!-- Custom stlylesheet -->
+      <link type="text/css" rel="stylesheet" href="css/style_failure.css" />
+
+      <style>
+            .notfound .notfound-404 h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 230px;
+            margin: 0px;
+            font-weight: 900;
+            position: absolute;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+                  -ms-transform: translateX(-50%);
+                  transform: translateX(-50%);
+            background: url('images/bg_f.jpg') no-repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: cover;
+            background-position: center;
+            }
+
+      </style>
 
 </head>
+
 <body>
-      
-<div class="container-fluid bg-dark text-light p-5">
-      <div class="container bg-dark p-5">
-            <h1 class="display-4">Uh oh!</h1>
-            <p>There was a problem with signing up, please try again or contact the develper!</p>
-            <form action="/failure" method="post">
-                  <button class="btn btn-warning btn-lg">Try Again</button>
-            </form>
-            
+
+      <div id="notfound">
+            <div class="notfound">
+                  <div class="notfound-404">
+                        <h1>Oops!</h1>
+                  </div>
+                  <h2>Error</h2>
+                  <p>There was a problem with signing up, please try again or contact the developer!</p>
+                  <form action="/failure" method="post">
+                        <button>Go To Homepage</button>
+                  </form>
+
+            </div>
       </div>
-</div>
 
 </body>
+
 </html>
