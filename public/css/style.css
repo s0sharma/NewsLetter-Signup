@@ -8348,13 +8348,15 @@ textarea.form-control {
         background: #fbceb5;
         color: #fff; }
 
+
+
+/* Success Page css */
 .copyright{
   text-align: center;
 }
 
 
 .thankyou {
-  font-family: 'Oleo Script', cursive;
   margin: 0%;
   font-family: 'Dancing Script', cursive;
   font-size: 8rem;
@@ -8366,14 +8368,15 @@ textarea.form-control {
   width: 750px;
   height: 500px;
   margin: 100px auto;
-  background:rgba(255, 255, 240, 0.945);
+  background: #f2fcff;
+
   position: relative;
 }
 
 
 .h3-s{
-  font-family: 'Fira Sans', sans-serif;
-   font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+   font-weight: 500;
 }
 
 
