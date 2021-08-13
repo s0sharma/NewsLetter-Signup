@@ -1,8 +1,10 @@
 
 # Nwesletter Signup
 
-*  This is a blog website made by using EJS, Node.js, Express.js, Lodash. It also has a MongoDB data base.
-*  New Blog Can be composed by going [https://dry-wildwood-13884.herokuapp.com/Compose](https://dry-wildwood-13884.herokuapp.com/Compose) page.
+*  This is a blog website made by using Node, Express, Mailchimp API, Heroku.
+*  When a user signup for newsletter it stores data inside database, Which can be used in future to to give update to all the users.
+*  If details are added successfullt a succes page will be shown.
+*  If some error occurs during storing user's data into database, than it will show failure page.
 
 
 ## Tech Stack
